@@ -1,0 +1,71 @@
+#main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#blender {
+    border-radius: 50px 0px 0px 0px;
+    font-size: 40px;
+    grid-area: left-top;
+    background-image: url("../images/projects/donut.png");
+    background-color: blue;
+    background-size: cover;
+}
+#left-mid{
+    grid-area: left-mid;
+}
+#left-bot{
+    grid-area: left-bot;
+}
+#right-bot{
+    grid-area: right-bot;
+}
+#running {
+    grid-area: right-top;
+    background-image: url("../images/projects/long-ducker.jpg");
+    background-color: blue;
+    background-size: cover;
+    border-radius: 0px 50px 0px 0px;
+    font-size: 40px;
+}
+#gaming {
+    grid-area: right-mid;
+}
+
+.side-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.left-item{
+
+}
+
+.right-item{
+
+}
+
+.grid-container {
+    border-radius: 50px;
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    height: inherit;
+    width: 100%;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "left-top main right-top"
+        "left-mid main right-mid"
+        "left-bot main right-bot";
+    }
+
+.wrapper{
+    height: 80vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 20px 20px 20px;
+}

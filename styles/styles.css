@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+}
+
+nav
+{
+    height: 8vh;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+#nav-logo
+{
+    position: relative;
+}
+
+.nav-item
+{
+    padding: 5px;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.nav-item:hover{
+    font-weight: 550;
+}
+
+#projects:hover{
+    border-top: 4px solid rgb(80, 91, 252);
+    border-bottom: 4px solid rgb(80, 91, 252);
+    color: rgb(80, 91, 252);
+}
+
+#resources:hover{
+    border-top: 4px solid rgb(46, 212, 24);
+    border-bottom: 4px solid rgb(46, 212, 24);
+    color:rgb(46, 212, 24) ;
+}
+
+#about:hover{
+    border-top: 4px solid #e6d820;
+    border-bottom: 4px solid #e6d820;
+    color: #e6d820;
+}
+
+#contact:hover{
+    border-top: 4px solid crgb(243, 60, 97);
+    border-bottom: 4px solid rgb(243, 60, 97);
+    color: rgb(243, 60, 97);
+}
