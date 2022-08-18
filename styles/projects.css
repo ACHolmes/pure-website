@@ -48,6 +48,27 @@
     background-color: blue;
     background-size: cover;
 }
+
+.project-container{
+    padding: 10px;
+    font-size: 18px;
+}
+
+#model-proj-1
+{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+#model-proj-1-label
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
 #left-mid{
     grid-area: left-mid;
 }
