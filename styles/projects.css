@@ -2,8 +2,44 @@
     grid-area: main;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
+
+#project-main-header{
+    font-size: 60px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+#default-header
+{
+    font-size: 40px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+#default-para
+{
+    font-size: 20px;
+}
+
+.project-header
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#modelling-header
+{
+    color: blue;
+}
+
+.project-para
+{
+    font-size: 20px;
+}
+
+
 #blender {
     border-radius: 50px 0px 0px 0px;
     font-size: 40px;
@@ -23,7 +59,7 @@
 }
 #running {
     grid-area: right-top;
-    background-image: url("../images/projects/long-ducker.jpg");
+    background-image: url("../images/projects/Snowdon.jpg");
     background-color: blue;
     background-size: cover;
     border-radius: 0px 50px 0px 0px;
@@ -38,7 +74,16 @@
     flex-direction: column;
     justify-content: center;
     color: white;
+    overflow: hidden;
+    transition: all .3s ease
 }
+
+.side-item:hover{
+    box-shadow: inset 0 0 20px white ;
+    cursor: pointer;
+}
+
+
 
 .left-item{
 

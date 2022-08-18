@@ -43,15 +43,26 @@
     </nav>
     <div class="wrapper">
         <div class="grid-container">
-            <div id="main">main</div>
-            <div class = "side-item left-item" id="blender">3D modelling</div>
-            <div class = "side-item right-item" id="running">Running</div>
-            <div class = "side-item left-item" id="left-mid">c</div>
-            <div class = "side-item left-item" id="left-bot">b</div>
-            <div class = "side-item right-item" id="right-bot">a</div>
-            <div class = "side-item right-item" id="gaming">test 1</div>
+            <div id="main">
+                <h1 id = "project-main-header">Projects</h1>
+                <div id="mutable">
+                    <!-- <h2 id= "default-header">No project selected!</h2>
+                    <p id = "default-para">Click an image on either side to find out about a hobby!</p> -->
+                    <h2 class="project-header" id = "modelling-header">3D Modelling</h2>
+                    <p class="project-para">
+                        I started learning to 3D model during the COVID lockdown period in the UK. 
+                    </p>
+                </div>
+            </div>
+            <div class = "side-item left-item" id="blender" onclick="updateCenter('modelling')">3D modelling</div>
+            <div class = "side-item right-item" id="running" onclick="updateCenter('running')">Running</div>
+            <div class = "side-item left-item" id="left-mid" onclick="updateCenter('c')">c</div>
+            <div class = "side-item left-item" id="left-bot" onclick="updateCenter('b')">b</div>
+            <div class = "side-item right-item" id="right-bot" onclick="updateCenter('modelling')">a</div>
+            <div class = "side-item right-item" id="gaming" onclick="updateCenter('modelling')">test 1</div>
 
         </div>
     </div>
 </body>
+<script src="scripts/projects.js"></script>
 </html>
